@@ -23,7 +23,7 @@ The following noise models are considered:
 - **Salt & Pepper Noise**: impulsive noise randomly altering between 5% and 40% of image pixels.
 
 ## Results
-![Thrips detection results](images/results.png)
+![Thrips detection results](images/result.png)
 *Figure: Results illustrating the impact of controlled noise on thrips detection performance.*
 
 ## Additional information
