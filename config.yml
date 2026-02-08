@@ -1,0 +1,15 @@
+datapath:
+  input : "../data/AI4I_2026_JDD_V0/0_thrips/2022_close_up/original"
+  output : "../data/AI4I_2026_JDD_V0/0_thrips/2022_close_up"
+
+# mode values: "s&p", "gaussian", "speckle", "poisson", "blur"
+noise_params:
+  mode : "blur"
+  pct : 0.35
+
+noise_params_file:
+  filepath: "../data/AI4I_2026_JDD_V0/0_thrips/2021_low_quality/ASTREDHOR_TPR_18-06_scan_1_transmis;92;104;214;226.png"
+  num_samples: 5
+  mode : "s&p"
+  pct : 0.5
+  output_dir : "../noisy_samples"
